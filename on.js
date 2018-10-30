@@ -8,7 +8,7 @@ bot.on("ready", function() {
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
 
-    if (message.content == "Hello") {
+    if (message.content == "?.[..l") {
         message.channel.send("Hai juga!");
 
         return;
