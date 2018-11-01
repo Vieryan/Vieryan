@@ -7,13 +7,18 @@ bot.on("ready", function() {
 
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
+    
+     bot.user.setGame('Mantap');
 
-    if (message.content == "Lirik Lagu Nissa Sabyan") {
-        message.channel.send("Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........Hmmmmmmm.........");
+    bot.user.setStatus('Online');
+
+
+    if (message.content == "Yoouda") {
+        message.channel.send("Hai juga!");
 
         return;
 }
-   
+
     
 
 });
