@@ -8,8 +8,8 @@ bot.on("ready", function() {
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
 
-    if (message.content == "?.[..l") {
-        message.channel.send("Hai juga!");
+    if (message.content == "Vieryan Ganteng") {
+        message.channel.send("Terima Kasih");
 
         return;
 }
